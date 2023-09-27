@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: danielzufri/myapp:1.0.0.epsilon
+        image: danielzufri/myapp:4.0.0
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
